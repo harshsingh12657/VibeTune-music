@@ -2,7 +2,7 @@ const songs = [
   {
     title: "Kesariya",
     artist: "Arijit Singh",
-    src: "song1.mp3",
+    src: "song2.mp3",
     cover: "cover1.webp",
     category: "new",
     album: "New Songs"
@@ -10,7 +10,7 @@ const songs = [
   {
     title: "Heeriye",
     artist: "Jasleen Royal",
-    src: "song2.mp3",
+    src: "song1.mp3",
     cover: "cover2.webp",
     category: "new",
     album: "New Songs"
@@ -24,7 +24,7 @@ const songs = [
     album: "Arijit Singh Collection"
   },
   {
-    title: "90s Song 1",
+    title: "Boom Shaka",
     artist: "90s Singer",
     src: "song4.mp3",
     cover: "cover4.webp",
@@ -32,7 +32,7 @@ const songs = [
     album: "90s Hits"
   },
   {
-    title: "90s Song 2",
+    title: "Gehra Hua",
     artist: "90s Singer",
     src: "song5.mp3",
     cover: "cover5.jpg",
@@ -40,7 +40,7 @@ const songs = [
     album: "90s Hits"
   },
   {
-    title: "Arijit Song 2",
+    title: "Humnava Mere",
     artist: "Arijit Singh",
     src: "song6.mp3",
     cover: "cover6.webp",
@@ -48,7 +48,7 @@ const songs = [
     album: "Arijit Singh Collection"
   },
   {
-    title: "Jubin Song 1",
+    title: "Lut le gya",
     artist: "Jubin Nautiyal",
     src: "song7.mp3",
     cover: "cover7.jpg",
@@ -56,7 +56,7 @@ const songs = [
     album: "Jubin Nautiyal Collection"
   },
   {
-    title: "Jubin Song 2",
+    title: "Payari lage",
     artist: "Jubin Nautiyal",
     src: "song8.mp3",
     cover: "cover8.webp",
@@ -64,10 +64,66 @@ const songs = [
     album: "Jubin Nautiyal Collection"
   },
   {
-    title: "New Song 3",
+    title: "Sitaare",
     artist: "Bollywood Singer",
     src: "song9.mp3",
     cover: "cover9.jpg",
+    category: "new",
+    album: "New Songs"
+  },
+  {
+    title: "Sitaare",
+    artist: "Bollywood Singer",
+    src: "song9.mp3",
+    cover: "cover9.jpg",
+    category: "new",
+    album: "New Songs"
+  },
+  {
+    title: "Bairen",
+    artist: "90s Singer",
+    src: "song10.mp3",
+    cover: "cover10.jpg",
+    category: "90s",
+    album: "90s Hits"
+  },
+  {
+    title: "Samjho Na",
+    artist: "90s Singer",
+    src: "song11.mp3",
+    cover: "cover11.webp",
+    category: "90s",
+    album: "90s Hits"
+  },
+  {
+    title: "Rangreza",
+    artist: "Bollywood Singer",
+    src: "song12.mp3",
+    cover: "cover12.jpg",
+    category: "new",
+    album: "New Songs"
+  },
+  {
+    title: "Kabhi Kabhi ",
+    artist: "Arijit Singh",
+    src: "song13.mp3",
+    cover: "cover13.webp",
+    category: "arijit",
+    album: "Arijit Singh Collection"
+  },
+  {
+    title: "Apnaa Mujhe Tu Lagaa",
+    artist: "Jubin Nautiyal",
+    src: "song14.mp3",
+    cover: "cover14.jpg",
+    category: "jubin",
+    album: "Jubin Nautiyal Collection"
+  },
+  {
+    title: "Preet Re",
+    artist: "Bollywood Singer",
+    src: "song15.mp3",
+    cover: "cover15.jpg",
     category: "new",
     album: "New Songs"
   }

@@ -545,3 +545,52 @@ body {
     font-size: 12px;
     color: #b3b3b3;
 }
+/* Mobile Sidebar Fix */
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .sidebar {
+    display: block !important;
+    width: 100%;
+    padding: 18px;
+    border-right: none;
+    border-bottom: 1px solid #202020;
+    background: #050505;
+    position: sticky;
+    top: 0;
+    z-index: 998;
+  }
+
+  .logo {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+
+  .sidebar nav,
+  .playlist-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: auto;
+  }
+
+  .playlist-menu {
+    margin-top: 10px;
+  }
+
+  .sidebar a,
+  .playlist-menu p {
+    white-space: nowrap;
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+
+  .main-content {
+    padding-top: 18px;
+  }
+}
